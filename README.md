@@ -22,7 +22,8 @@ Copy The Code In [src.js](./src.js)
 
 1) Go to Chrome Browser
 2) Load [chrome://dino/](chrome://dino/) URL
-3) Write Click And Open **inspect**</br>
+3) Write Click And Open **inspect**
+</br>
     <image src=./img/inspect.PNG width=60%>
 4) Click The Console
 </br>
@@ -33,25 +34,24 @@ Copy The Code In [src.js](./src.js)
 6) Now You Are Done
 7) Use Command And Get Fun
 
-    ```js
+***
+```js
     manoj.hack() // You Are In God Mod
-    ```
+    
 
-     ```js
     manoj.speed(10) // You can Change The Speed
-    ``` 
+    
 
-    ```js
     manoj.sonic() // Dino To Sonic
-    ```
+   
 
-    ```js
     manoj.dino() // Sonic To Dino
-    ```
+    
 
-    ```js
     manoj.out() // You Can Normalize The Game For Save High Score
-    ```
+
+```
+
 
 ***
 </br>
