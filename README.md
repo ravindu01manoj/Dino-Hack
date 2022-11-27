@@ -1,4 +1,4 @@
-# Chrome Dyno Ofline Game Hack
+# Chrome Dyno Offline Game Hack
 
 ## Table of Contents
 
