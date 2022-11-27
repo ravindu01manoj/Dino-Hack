@@ -42,9 +42,11 @@ Copy The Code In [src.js](./src.js)
 - **cheat** - Display Cheat Menu
 </br>
     <image src=./img/cheat_menu.PNG width=60%>
+
 - **autoplayon** - Now Game Is Autoplaying...
 </br>
     <image src=./img/ex-cheat.PNG width=60%>
+
 - **autoplayoff** - Turn Off Autoplay Mod
 - **sonic** - Changing the player to Sonic
 - **dino** - Changing the player to Trex
