@@ -1,4 +1,4 @@
-# Chrome Dyno Offline Game Hack
+# Chrome Dino Offline Game Hack
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@
 ***
 ## About <a name = "about"></a>
 
-You Can Hack The Chrome [Dyno](chrome://dino/) Game
+You Can Hack The Chrome [Dino](chrome://dino/) Game
 
 ***
 ## Getting Started <a name = "getting_started"></a>
@@ -43,16 +43,16 @@ Copy The Code In [src.js](./src.js)
 </br>
     <image src=./img/cheat_menu.PNG width=60%>
 
-- **autoplayon** - Now Game Is Autoplaying...
+- **autoplayon** - Now Game Is Auto playing...
 </br>
     <image src=./img/ex-cheat.PNG width=60%>
 
-- **autoplayoff** - Turn Off Autoplay Mod
+- **autoplayoff** - Turn Off Auto play Mod
 - **sonic** - Changing the player to Sonic
-- **dino** - Changing the player to Trex
+- **dino** - Changing the player to T-rex
 - **jumpsonicon** - Changing the player to Sonic While Jumping
 - **jumpsonicoff** - Turn Off jumpsonicon Cheat
-- **jumpdynoon** - Changing the player to trex While Jumping 
+- **jumpdynoon** - Changing the player to t-rex While Jumping 
 - **jumpdinooff** - Turn Off jumpdynoon Cheat 
 - **speed** - Change The Game Speed. usage: 20speed 
 - **score** - Set The Score While Playing. Max core is 999999 
@@ -60,7 +60,7 @@ Copy The Code In [src.js](./src.js)
 - **runscore** - Disable stopscore cheat code 
 - **fastscore** - Speed up The Score Update 
 - **slowscore** - Disable fastscore cheat code 
-- **hack** - Freaze Game Over 
+- **hack** - Freeze Game Over 
 
 _use enter key to reset text_
 ***
