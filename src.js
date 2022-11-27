@@ -3,7 +3,7 @@ var about = {sonic:'Changing the player to Sonic',dino: 'Changing the player to 
     ll = () => {
         let e = window.Runner.instance_,
             t = e.tRex;
-        if (t.jumping) {
+        if (t.jumping || t.ducking) {
             if (ac) {
                 manoj.sonic()
             } else {
