@@ -5,6 +5,7 @@
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Usage](#usage)
+- [Cheat Codes](#codes)
 - [Authors](#authors)
 
 ***
@@ -32,25 +33,32 @@ Copy The Code In [src.js](./src.js)
 </br>
     <image src=./img/hack.PNG width=60%>
 6) Now You Are Done
-7) Use Command And Get Fun
+7) Close the **inspect** tab
+8) Type Cheat codes And Get Fun
 
 ***
-```js
-    manoj.hack() // You Are In God Mod
-    
+## ✍️ Cheat Codes <a name = "codes"></a>
 
-    manoj.speed(10) // You can Change The Speed
-    
-
-    manoj.sonic() // Dino To Sonic
-   
-
-    manoj.dino() // Sonic To Dino
-    
-
-    manoj.out() // You Can Normalize The Game For Save High Score
-
-```
+- **cheat** - Display Cheat Menu
+</br>
+    <image src=./img/cheat_menu.PNG width=60%>
+- **autoplayon** - Now Game Is Autoplaying...
+</br>
+    <image src=./img/ex-cheat.PNG width=60%>
+- **autoplayoff** - Turn Off Autoplay Mod
+- **sonic** - Changing the player to Sonic
+- **dino** - Changing the player to Trex
+- **jumpsonicon** - Changing the player to Sonic While Jumping
+- **jumpsonicoff** - Turn Off jumpsonicon Cheat
+- **jumpdynoon** - Changing the player to trex While Jumping 
+- **jumpdinooff** - Turn Off jumpdynoon Cheat 
+- **speed** - Change The Game Speed. usage: 20speed 
+- **score** - Set The Score While Playing. Max core is 999999 
+- **stopscore** - Stop The Score Update 
+- **runscore** - Disable stopscore cheat code 
+- **fastscore** - Speed up The Score Update 
+- **slowscore** - Disable fastscore cheat code 
+- **hack** - Freaze Game Over 
 
 
 ***
