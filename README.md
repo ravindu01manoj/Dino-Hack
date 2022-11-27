@@ -60,7 +60,7 @@ Copy The Code In [src.js](./src.js)
 - **slowscore** - Disable fastscore cheat code 
 - **hack** - Freaze Game Over 
 
-
+_use enter key to reset text_
 ***
 </br>
 <center><img src="./img/play.gif" width="70%" /></center>
