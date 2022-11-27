@@ -29,20 +29,37 @@ var about = {sonic:'Changing the player to Sonic',dino: 'Changing the player to 
         Runner.instance_.setSpeed(10);
         let e = window.Runner.instance_,
             t = e.tRex;
-        if (t.jumping) {
-            requestAnimationFrame(xdt);
-            return
-        }
-        let n = t.xPos,
-            s = e.horizon.obstacles,
-            o = s.find(e => e.xPos > n);
-        if (o && o.xPos - n <= 120) {
-            const resourceTemplate = document.getElementById('audio-resources').content;
+            var o,n,s;
+            try {
+                n = t.xPos,
+                s = e.horizon.obstacles,
+                o = s.find(e => e.xPos > n);
+            } catch {}
+            if (t.jumping || t.ducking) {
+                if(o && o.xPos>= 120) {
+                    t.setDuck()
+                    window.Runner.instance_.tRex.ducking = false}
+                requestAnimationFrame(xdt);
+                return
+            }
+         
+        if (o && o.xPos - n <= 120 && o.yPos != 50) {
+            if(o.yPos != 75) {
+                const resourceTemplate = document.getElementById('audio-resources').content;
             jumpsound = resourceTemplate.getElementById('offline-sound-press').src;
             var snd = new Audio(jumpsound);
             snd.play();
             t.startJump(50)
+            } else {
+                const resourceTemplate = document.getElementById('audio-resources').content;
+            jumpsound = resourceTemplate.getElementById('offline-sound-press').src;
+            var snd = new Audio(jumpsound);
+            snd.play();
+            t.setDuck(true)
+            }
         }
+
+        
         requestAnimationFrame(xdt)
     },
     ddk = (e) => {
