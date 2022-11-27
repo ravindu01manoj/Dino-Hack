@@ -18,7 +18,7 @@ var about = {sonic:'Changing the player to Sonic',dino: 'Changing the player to 
         }
         requestAnimationFrame(xxt);
     },
-    mm = () => {
+    mm = () => {a
         Runner.instance_.distanceRan = backup_score
         requestAnimationFrame(xmt)
     },nn = () => {
