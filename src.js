@@ -150,7 +150,7 @@ function manojuse(t) {
         alert(toset('Cheat Activated \n\n') + toset(t + 'speed - '+ about.speed,'m'))
         return true
     }
-    if (t.includes('score') && !t.includes('stop') && !t.includes('run') && !t.includes('slow') && !t.includes('past')) {
+    if (t.includes('score') && !t.includes('stop') && !t.includes('run') && !t.includes('slow') && !t.includes('fast')) {
         var number = Number(t.replace('score', '').trim())
         if (isNaN(number) || number > 999999) return alert(toset('use A number before the cheat code \nex:- 1520score\nwarn:- max score is 999999'))
         manoj.scoreset(number);
